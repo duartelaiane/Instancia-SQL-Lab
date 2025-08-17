@@ -66,7 +66,11 @@ Login/senha: Definidos na criação.
 Execute um comando SQL básico para verificar:
 
 CREATE DATABASE LabDB;
+
 USE LabDB;
+
 CREATE TABLE Teste (ID INT PRIMARY KEY, Nome VARCHAR(50));
+
 INSERT INTO Teste VALUES (1, 'Azure SQL MI');
+
 SELECT * FROM Teste;
